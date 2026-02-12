@@ -127,6 +127,148 @@ Para instalar los paquetes básicos del sistema, ejecuta el siguiente comando:
 
 Este comando instalará el sistema base, el kernel de Linux y el firmware necesario.
 
+## 3 Configuración del sistema
+
+### 3.1 Fstab
+
+1. Genera el archivo fstab con el siguiente comando:
+
+`genfstab -U /mnt >> /mnt/etc/fstab`
+
+2. Verifica que el archivo se haya creado correctamente:
+
+`cat /mnt/etc/fstab`
+
+Al ejecutar el comando, deberías ver las particiones que montaste anteriormente.
+
+### 3.2 chroot
+
+Accedemos al entorno del nuevo sistema cambiando la raíz con el siguiente comando:
+
+`arch-chroot /mnt`
+
+### 3.3 Instalar herramientas básicas
+
+Instale nano con el siguiente comando para poder editar archivos:
+
+`pacman -S nano`
+
+Instale networkmanager para habilitar la conexión a internet:
+
+`pacman -S networkmanager`
+
+Inicie y habilite el servicio con el siguiente comando:
+
+`systemctl enable NetworkManager`
+
+Instale el microcódigo correspondiente a su procesador:
+
+- Para procesadores AMD:
+  `pacman -S amd-ucode`
+- Para procesadores Intel:
+  `pacman -S intel-ucode`
+
+### 3.4 Zona horaria
+
+Para ver el listado de zonas horarias disponibles, ejecute:
+
+`timedatectl list-timezones`
+
+Defina su zona horaria con el siguiente comando:
+
+`timedatectl set-timezone Area/Location`
+
+Luego cree el enlace simbólico correspondiente:
+
+`ln -sf /usr/share/zoneinfo/Area/Location /etc/localtime`
+
+Ejemplo:
+
+`timedatectl set-timezone America/Bogota`
+
+`ln -sf /usr/share/zoneinfo/America/Bogota /etc/localtime`
+
+Finalmente, genere el archivo /etc/adjtime con el comando:
+
+`hwclock --systohc`
+
+### 3.5 Idioma del sistema
+
+Edite el archivo de configuración de idiomas con el siguiente comando:
+
+`nano /etc/locale.gen`
+
+Descomente los siguientes idiomas que desee utilizar eliminando el símbolo `#` al inicio de cada linea.
+
+Ejemplo:
+
+`en_US.UTF8 UTF-8`
+
+Para guardar el archivo en nano, presione `ctrl + o`, luego Enter para mantener el mismo nombre, y para salir presione `ctrl + x`
+
+Después, ejecute el siguiente comando para generar los idiomas:
+
+`locale-gen`
+
+Ahora cree el archivo locale.conf con el siguiente comando:
+
+`echo "LANG=en_US.UTF-8" >> /etc/locale.conf`
+
+Si desea usar español u otro idioma, cambie `en_US.UTF-8` por el que haya descomentado anteriormente.
+
+Para verificar que la configuración es correcta, ejecute:
+
+`cat /etc/locale.conf`
+
+Si desea ver las distribuciones de teclado disponibles, utilice:
+
+`localectl list-keymaps`
+
+Cree el archivo vconsole.conf con uno de los siguientes comandos:
+
+- Para teclado en español:
+  `echo "KEYMAP=es" >> /etc/vconsole.conf`
+- Para teclado en ingles con acentos:
+  `echo "KEYMAP=us-acentos" >> /etc/vconsole.conf`
+
+Para validar la configuración ejecute:
+
+`cat /etc/vconsole.conf`
+
+### 3.6 Configurar la red
+
+Asigne el nombre de su equipo con el siguiente comando:
+
+`echo "[yourhostname]" >> /etc/hostname`
+
+Remplace el [yourhostname] por el nombre que desea asignar.
+
+Para verificar que se configuró correctamente, ejecute:
+
+`cat /etc/hostname`
+
+### 3.7 Contraseña root
+
+Establezca una contraseña para el usuario root ejecutando el siguiente comando:
+
+`passwd`
+
+### 3.8 Gestor de arranque
+
+Instale GRUB como gestor de arranque con los siguientes comandos:
+
+`pacman -S grub`
+
+`pacman -S efibootmgr`
+
+Instale GRUB en el sistema UEFI ejecutando:
+
+`grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB --removable`
+
+Finalmente, genere el archivo de configuración con:
+
+`grub-mkconfig -o /boot/grub/grub.cfg`
+
 ## Documentación
 
 En caso de necesitarlo se puede volver a consultar la documentación oficial de Arch Linux: [Documentación](https://wiki.archlinux.org/title/Installation_guide)
