@@ -287,6 +287,10 @@ O apague el equipo con:
 
 `poweroff`
 
+## 5 Pos instalación
+
+Vea el articulo de [post-installation](./post-installation.md) para obtener instrucciones de como gestionar el sistema, asi como tutoriales de qué hacer después de la instalación.
+
 ## Documentación
 
 En caso de necesitarlo se puede volver a consultar la documentación oficial de Arch Linux: [Documentación](https://wiki.archlinux.org/title/Installation_guide)
