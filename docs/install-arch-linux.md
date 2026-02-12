@@ -117,6 +117,16 @@ Ahora debes montar las particiones que usara el sistema.
 
    En la columna MOUNTPOINTS podrás ver dónde está montada cada partición.
 
+## 2. Instalación
+
+### 2.1 Instalar paquetes esenciales
+
+Para instalar los paquetes básicos del sistema, ejecuta el siguiente comando:
+
+`pacstrap -K /mnt base linux linux-firmware`
+
+Este comando instalará el sistema base, el kernel de Linux y el firmware necesario.
+
 ## Documentación
 
 En caso de necesitarlo se puede volver a consultar la documentación oficial de Arch Linux: [Documentación](https://wiki.archlinux.org/title/Installation_guide)
