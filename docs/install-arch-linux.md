@@ -269,6 +269,24 @@ Finalmente, genere el archivo de configuración con:
 
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
+## 4 Reiniciar
+
+Salga del entorno actual con el comando:
+
+`exit`
+
+Desmonte las unidades montadas con:
+
+`umount -R /mnt`
+
+Finalmente, reinicie el sistema con:
+
+`reboot`
+
+O apague el equipo con:
+
+`poweroff`
+
 ## Documentación
 
 En caso de necesitarlo se puede volver a consultar la documentación oficial de Arch Linux: [Documentación](https://wiki.archlinux.org/title/Installation_guide)
