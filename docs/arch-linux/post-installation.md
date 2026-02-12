@@ -56,6 +56,10 @@ Arch utiliza systemd como gestor central del sistema y de los servicios. Su admi
 
 Es fundamental conocer los conceptos básicos de estas herramientas para realizar un mantenimiento adecuado del sistema.
 
+### 1.4 Mantenimiento del sistema
+
+Arch Linux requiere mantenimiento regular. Para más información, consulta [Mantenimiento del sistema](./system-maintenance/system-maintenance.md)
+
 ## Documentación
 
 Para profundizar más en el tema, se recomienda visitar la página de la documentación oficial sobre recomendaciones generales: [General recommendations](https://wiki.archlinux.org/title/General_recommendations)
