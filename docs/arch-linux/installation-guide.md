@@ -7,7 +7,7 @@ Esta es una guía sobre cómo instalar Arch Linux sin utilizar el comando `archi
 ### 1.1 Descarga de la imagen
 
 1.  Visita [archlinux.org/download](https://archlinux.org/download/) y selecciona un servidor espejo cercano a tu ubicación.
-2.  Una vez elegido el país, se mostrará una lista con varios enlaces disponibles. El archivo ISO suele aparecer como el tercer enlace de la lista: ![alt text](assets/download-arch.png).
+2.  Una vez elegido el país, se mostrará una lista con varios enlaces disponibles. El archivo ISO suele aparecer como el tercer enlace de la lista: ![alt text](../assets/download-arch.png).
 
 ### 1.2 Validar firma
 
