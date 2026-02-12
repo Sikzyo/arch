@@ -49,6 +49,13 @@ A continuación, se detallan algunas acciones que deberían ejecutarse para mant
 
 ### 1.3 Administración de servicios
 
+Arch utiliza systemd como gestor central del sistema y de los servicios. Su administración se basa en dos herramientas principales:
+
+- [systemctl](./systemd/systemctl.md): El comando utilizado para interactuar con systemd y controlar los servicios.
+- [journalctl](./systemd/journalctl.md): Herramienta para consultar el sistema de registros (logs).
+
+Es fundamental conocer los conceptos básicos de estas herramientas para realizar un mantenimiento adecuado del sistema.
+
 ## Documentación
 
 Para profundizar más en el tema, se recomienda visitar la página de la documentación oficial sobre recomendaciones generales: [General recommendations](https://wiki.archlinux.org/title/General_recommendations)
