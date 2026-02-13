@@ -6,7 +6,9 @@ La idea es explicar cuales son los pasos recomendados a seguir después de insta
 
 ### 1.1 Usuarios
 
-Una instalación nueva solo crea el usuario root. Utilizar este usuario de forma habitual se considera inseguro, por lo que se recomienda crear y usar usuarios sin privilegios para el uso cotidiano del sistema. Para crear un nuevo usuario consulte [crear usuario](./users/user.md)
+Una instalación nueva solo crea el usuario root. Utilizar este usuario de forma habitual se considera inseguro, por lo que se recomienda crear y usar usuarios sin privilegios para el uso cotidiano del sistema.
+
+Para crear un nuevo usuario, consulta la sección: [crear usuario](./users/user.md)
 
 ### 1.2 Seguridad
 
