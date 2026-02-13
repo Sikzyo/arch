@@ -60,6 +60,12 @@ El ABS es el mecanismo que permite a los usuarios compilar su propio software (y
 
 Se recomienda mirar el articulo [ABS](./abs/abs.md)
 
+### 2.5 AUR
+
+Arch User Repository (AUR) trata sobre el repositorio comunitario de Arch.
+
+Se recomienda mirar el articulo [AUR](./aur/aur.md)
+
 ## 11 Apariencia
 
 ### 11.1 Fuentes
