@@ -60,7 +60,7 @@ Para optimizar la velocidad y actualización de los repositorios, se recomienda 
 
 Instalar fuentes TrueType para mejorar la compatibilidad y ampliar la cobertura Unicode, ya que el sistema base solo incluye fuentes de mapa de bits.
 
-Para la configuración de las fuentes consulta [Fuentes]()
+Para la configuración de las fuentes consulta [Fuentes](./fonts/fonts.md)
 
 ## Documentación
 
