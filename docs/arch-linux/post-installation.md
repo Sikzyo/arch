@@ -60,6 +60,14 @@ Es fundamental conocer los conceptos básicos de estas herramientas para realiza
 
 Arch Linux requiere mantenimiento regular. Para más información, consulta [Mantenimiento del sistema](./system-maintenance/system-maintenance.md)
 
+## 2 Gestor de paquetes
+
+### 2.1 pacman
+
+`pacman` es el gestor de paquetes de Arch y aprender a utilizarlo correctamente es fundamental para administrar el sistema
+
+Para más información, consulta [pacman](./pacman/pacman.md)
+
 ## Documentación
 
 Para profundizar más en el tema, se recomienda visitar la página de la documentación oficial sobre recomendaciones generales: [General recommendations](https://wiki.archlinux.org/title/General_recommendations)
