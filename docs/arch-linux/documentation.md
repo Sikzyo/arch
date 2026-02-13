@@ -46,6 +46,8 @@ Para más información, consulta [pacman](./pacman/pacman.md)
 
 ### 2.2 Repositorios
 
+Se recomienda consultar la sección de repositorios oficiales para obtener más información: [repositorios](./repositories/repositories.md)
+
 ## Documentación
 
 Para profundizar más en el tema, se recomienda visitar la página de la documentación oficial sobre recomendaciones generales: [General recommendations](https://wiki.archlinux.org/title/General_recommendations)
