@@ -50,6 +50,18 @@ Para más información, consulta [pacman](./pacman/pacman.md)
 
 Se recomienda consultar la sección de repositorios oficiales para obtener más información: [repositorios](./repositories/repositories.md)
 
+### 2.3 Espejos(Mirrors)
+
+Para optimizar la velocidad y actualización de los repositorios, se recomienda mirar el articulo de [mirrors](./mirrors/mirrors.md)
+
+## 11 Apariencia
+
+### 11.1 Fuentes
+
+Instalar fuentes TrueType para mejorar la compatibilidad y ampliar la cobertura Unicode, ya que el sistema base solo incluye fuentes de mapa de bits.
+
+Para la configuración de las fuentes consulta [Fuentes]()
+
 ## Documentación
 
 Para profundizar más en el tema, se recomienda visitar la página de la documentación oficial sobre recomendaciones generales: [General recommendations](https://wiki.archlinux.org/title/General_recommendations)
