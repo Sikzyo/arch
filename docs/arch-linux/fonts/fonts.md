@@ -34,12 +34,16 @@ Otras alternativas populares:
 
 3. Cómo instalar fuentes
 
+- Antes de instalar o actualizar fuentes, asegúrate de tener instalado fontconfig, que es el sistema que permite al sistema conocer y gestionar las fuentes:
+
+  `sudo pacman -S fontconfig`
+
 - A través del gestor de paquetes (Recomendado)
   Es el método más limpio y seguro, ya que el sistema gestionará automáticamente actualizaciones y desinstalaciones.
 
   Para instalar la fuente, puedes ejecutar:
 
-  `sudo pacman -S noto-fonts`
+  `sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra`
 
   ***
   - Instalación manual
