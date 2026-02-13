@@ -1,4 +1,4 @@
-# Pos Instalación
+# Documentación
 
 La idea es explicar cuales son los pasos recomendados a seguir después de instalar Arch.
 
@@ -67,6 +67,8 @@ Arch Linux requiere mantenimiento regular. Para más información, consulta [Man
 `pacman` es el gestor de paquetes de Arch y aprender a utilizarlo correctamente es fundamental para administrar el sistema
 
 Para más información, consulta [pacman](./pacman/pacman.md)
+
+### 2.2 Repositorios
 
 ## Documentación
 

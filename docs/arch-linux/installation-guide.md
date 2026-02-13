@@ -289,7 +289,7 @@ O apague el equipo con:
 
 ## 5 Pos instalación
 
-Vea el articulo de [post-installation](./post-installation.md) para obtener instrucciones de como gestionar el sistema, asi como tutoriales de qué hacer después de la instalación.
+Vea el articulo de [documentación](./documentation.md.md) para obtener instrucciones de como gestionar el sistema, asi como tutoriales de qué hacer después de la instalación.
 
 ## Documentación
 
