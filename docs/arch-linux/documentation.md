@@ -54,6 +54,12 @@ Se recomienda consultar la sección de repositorios oficiales para obtener más 
 
 Para optimizar la velocidad y actualización de los repositorios, se recomienda mirar el articulo de [mirrors](./mirrors/mirrors.md)
 
+### 2.4 Arch Build System
+
+El ABS es el mecanismo que permite a los usuarios compilar su propio software (ya sea proveniente de los repositorios oficiales o del AUR) y asegurarse de que el resultado final sea un paquete que el sistema pueda reconocer, instalar y administrar fácilmente.
+
+Se recomienda mirar el articulo [ABS](./abs/abs.md)
+
 ## 11 Apariencia
 
 ### 11.1 Fuentes
