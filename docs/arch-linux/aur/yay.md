@@ -14,9 +14,13 @@ Un AUR helper automatiza la búsqueda, resolución de dependencias y compilació
 
 3. Como usar yay correctamente
    - Para instalar un paquete (de repositorios oficiales o AUR)
-     - `yay`
+     - `yay -S [name]`
    - Buscar por palabras claves:
-     - `yay [palabra-clave]` mostrará una lista numerada de resultados para elegir
+     - `yay [name]` mostrará una lista numerada de resultados para elegir
+   - Actualizar el sistema completo
+     - `yay -Syu`
+   - Eliminar un paquete y sus dependencias
+     - `yay -Rns [name]`
    - Limpiar dependencias innecesarias:
      - `yay -Yc`
    - Nunca uses `sudo`, yay debe ejecutarse como usuario normal, pedirá sudo cuando lo necesite.
