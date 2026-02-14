@@ -8,7 +8,7 @@ Un AUR helper automatiza la búsqueda, resolución de dependencias y compilació
 2. Cómo instalar yay
    Dado que `yay` está en el AUR, debes instalarlo manualmente:
    1. Asegúrate de tener `base-devel` y `git` instalados.
-   2. Clona el repositorio: `https://aur.archlinux.org/yay.git`
+   2. Clona el repositorio: `git clone https://aur.archlinux.org/yay.git`
    3. Entra en el directorio: `cd yay`
    4. Compila e instala: `makepkg -si`
 
@@ -21,6 +21,8 @@ Un AUR helper automatiza la búsqueda, resolución de dependencias y compilació
      - `yay -Syu`
    - Eliminar un paquete y sus dependencias
      - `yay -Rns [name]`
+   - Ver paquetes instalados con AUR
+     - `yay -Qm`
    - Limpiar dependencias innecesarias:
      - `yay -Yc`
    - Nunca uses `sudo`, yay debe ejecutarse como usuario normal, pedirá sudo cuando lo necesite.
