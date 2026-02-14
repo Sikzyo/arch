@@ -100,7 +100,7 @@ AL usar unicamente un gestor de ventanas, el usuario puede elegir y añadir de f
 
 Se distinguen tres categorías principales según la forma en que organizan las ventanas en la pantalla: dinámico, apilado y de mosaico.
 
-Consulta cómo instalar Hyprland en la siguiente guía: [Hyprland]()
+Consulta cómo instalar Hyprland en la siguiente guía: [Hyprland](../hyperland/install-hyprland.md)
 
 ### 4.5 Gestor de pantalla
 
