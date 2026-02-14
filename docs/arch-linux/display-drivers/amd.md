@@ -5,7 +5,7 @@ Este controlador esta destinado a las tarjetas Radeon de la familia Graphics Cor
 1. Instalación
    - Instala el paquete `mesa` para habilitar la aceleración 3D y la decodificación de video.
    - Para soporte de Vulkan, instala `vulkan-radeon`
-   - Para soporte de 32 bits, instala `lib32-vulkan-radeon`
+   - Para soporte de 32 bits, instala `lib32-vulkan-radeon` y `lib32-mesa`
 
 2. Verificación
    - Ejecuta `lspci -k` en la terminal. En la sección correspondiente a la tarjeta gráfica debería aparecer:
