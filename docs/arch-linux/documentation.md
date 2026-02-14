@@ -66,6 +66,14 @@ Arch User Repository (AUR) trata sobre el repositorio comunitario de Arch.
 
 Se recomienda mirar el articulo [AUR](./aur/aur.md)
 
+## 3 Boot
+
+### 3.2 Microcode
+
+Los procesadores pueden presentar comportamientos defectuoso. Para corregir estos fallos, el kernel puede actualizar el micro código del procesador durante el inicio del sistema.
+
+Para más información, consulta: [Microcode](./microcode/microcode.md)
+
 ## 11 Apariencia
 
 ### 11.1 Fuentes
