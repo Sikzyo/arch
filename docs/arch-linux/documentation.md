@@ -74,6 +74,16 @@ Los procesadores pueden presentar comportamientos defectuoso. Para corregir esto
 
 Para más información, consulta: [Microcode](./microcode/microcode.md)
 
+## 4 Interfaz gráfica del usuario
+
+### 4.2 Controladores de pantalla
+
+Aunque el controlador predeterminado `modesettting` funciona correctamente con la mayoría de las tarjetas de video, se recomienda instalar los controladores específicos para productos de AMD, Intel o NVIDIA. Esto permite obtener un mejor rendimiento del sistema y acceder a funciones adicionales propias de cada tarjeta gráfica.
+
+[AMD](./display-drivers/amd.md)
+[Intel](./display-drivers/intel.md)
+[NVIDIA](./display-drivers/nvidia.md)
+
 ## 11 Apariencia
 
 ### 11.1 Fuentes
