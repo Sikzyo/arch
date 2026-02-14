@@ -84,6 +84,40 @@ Aunque el controlador predeterminado `modesettting` funciona correctamente con l
 [Intel](./display-drivers/intel.md)
 [NVIDIA](./display-drivers/nvidia.md)
 
+### 4.3 Entornos de escritorio
+
+Un entorno de escritorio agrupa una amplia gama de aplicaciones que están bien integradas entre sí, como el gestor de ventanas o compositor, la barra de tareas, el gestor de archivos, el emulador de terminal, el editor de texto, los iconos y otras utilidades esenciales.
+
+Entre los entornos de escritorio más conocidos se encuentran KDE, GNOME, COSMIC, Xfce, Cinnamon y LXDE.
+
+### 4.4 Gestores de ventanas
+
+Los gestores de ventana (o compositores) describen una alternativa más ligera frente a los entornos de escritorios completos.
+
+Se recomiendan para usuarios que desean maximizar el rendimiento del sistema o mantener un entorno de trabajo más simple, ya que consumen menos recursos que un entorno de escritorio completo.
+
+AL usar unicamente un gestor de ventanas, el usuario puede elegir y añadir de forma manual solo las herramientas o componentes adicionales que realmente necesita.
+
+Se distinguen tres categorías principales según la forma en que organizan las ventanas en la pantalla: dinámico, apilado y de mosaico.
+
+Consulta cómo instalar Hyprland en la siguiente guía: [Hyprland]()
+
+### 4.5 Gestor de pantalla
+
+El gestor de pantalla se encarga de iniciar automáticamente el entorno gráfico y de gestionar el inicio de sesión de los usuarios.
+
+La mayoría de los entornos de escritorio incluyen un gestor de pantalla integrado por defecto.
+
+Quienes no utilizan un entorno de escritorio completo pueden instalar un gestor de pantalla de forma independiente.
+
+### 4.6 Directorios de usuario
+
+Los directorios de usuario se encargan de crear directorios comunes y bien conocidos, como Downloads o Music
+
+Estas carpetas son creadas por el servicio de usuario `xdg-user-dirs-update`, el cual es proporcionado por el paquete `xdg-user-dirs`
+
+Para instalarlo y configurar, consulta la guía: [xdg-user-dirs](./user-directories/xdg-user-dirs.md)
+
 ## 11 Apariencia
 
 ### 11.1 Fuentes
