@@ -16,7 +16,7 @@
     }
   },
 
-  "ui_font_size": 14/16,
+  "ui_font_size": "14 / 16",
   "title_bar": {
     "show_onboarding_banner": false
   },

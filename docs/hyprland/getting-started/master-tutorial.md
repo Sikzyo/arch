@@ -24,4 +24,3 @@ Una vez instalado Hyprland, estos son los pasos esenciales para configurar y com
 pipewire; pipewire, wireplumber
 XDG Desktop Portal: xdg-desktop-portal-hyprland
 Statusbar/shell: quickshell, waybar, eww, ags
-Clipboard: wl-copy
