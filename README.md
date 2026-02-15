@@ -40,6 +40,7 @@ Guías para la instalación y configuración de Arch Linux.
 
 - [Fuentes](docs/arch-linux/fonts/fonts.md)
 - [Directorios de usuario](docs/arch-linux/user-directories/xdg-user-dirs.md)
+- [Audio](docs/arch-linux/audio/audio-setup.md) - Configuración de PipeWire y WirePlumber
 
 ---
 

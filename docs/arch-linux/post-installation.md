@@ -10,4 +10,5 @@ Para preparar Arch para el uso diario, se recomienda seguir estos pasos:
 6. Activa el repositorio multilib. Consulta: [Repositorios oficiales](./repositories/repositories.md)
 7. Para instalar yay y poder utilizar AUR, consulta: [yay](./aur/yay.md)
 8. Para instalar y configurar las fuentes, revisa: [Fuentes](./fonts/fonts.md)
-9. Instala Hyprland. Para ello, se recomienda consultar la guía: [Hyprland](../hyprland/getting-started/install-hyprland.md)
+9. Configura el sistema de audio. Consulta: [Audio](./audio/audio-setup.md)
+10. Instala Hyprland. Para ello, se recomienda consultar la guía: [Hyprland](../hyprland/getting-started/install-hyprland.md)

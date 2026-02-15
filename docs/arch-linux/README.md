@@ -118,6 +118,12 @@ Estas carpetas son creadas por el servicio de usuario `xdg-user-dirs-update`, el
 
 Para instalarlo y configurar, consulta la guía: [xdg-user-dirs](./user-directories/xdg-user-dirs.md)
 
+## 5 Audio
+
+Este directorio contiene la configuración del sistema de audio usando PipeWire y WirePlumber.
+
+Para instalar y configurar el sistema de audio, consulta: [Audio](./audio/audio-setup.md)
+
 ## 11 Apariencia
 
 ### 11.1 Fuentes
