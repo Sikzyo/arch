@@ -23,7 +23,7 @@ A continuación, se detallan algunas acciones que deberían ejecutarse para mant
    - Es fundamental actualizar el sistema con frecuencia para corregir vulnerabilidades.
    - Asegúrate de tener instaladas las actualizaciones de microcódigo para tu CPU (Intel o AMD), ya que ayudan a mitigar vulnerabilidades de hardware.
 3. Protección de red
-   - Se recomienda instalar un cortafuegos como [UFW](./UFW/installation-UFW.md).
+   - Se recomienda instalar un cortafuegos como [UFW](./ufw/installation-ufw.md).
 
 ### 1.3 Administración de servicios
 
@@ -100,7 +100,7 @@ AL usar unicamente un gestor de ventanas, el usuario puede elegir y añadir de f
 
 Se distinguen tres categorías principales según la forma en que organizan las ventanas en la pantalla: dinámico, apilado y de mosaico.
 
-Consulta cómo instalar Hyprland en la siguiente guía: [Hyprland](../hyperland/install-hyprland.md)
+Consulta cómo instalar Hyprland en la siguiente guía: [Hyprland](../hyprland/getting-started/install-hyprland.md)
 
 ### 4.5 Gestor de pantalla
 

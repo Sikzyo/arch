@@ -13,11 +13,11 @@ Una vez instalado Hyprland, estos son los pasos esenciales para configurar y com
    - Configuración de wallpapers:
      - Para mirar como configurar `hyprpaper` mire [hyprpaper](../must-have/wallpaper.md)
    - Configuración de notificaciones
-     - Para ver cómo configurar `mako`, consulta: [Mako](../must-have/notification-deamon.md)
+     - Para ver cómo configurar `mako`, consulta: [Mako](../must-have/notification-daemon.md)
    - Configuración del lanzador de aplicaciones
      - Para ver cómo instalar hyprlauncher, consulta la guía en [hyprlauncher](../must-have/application-launcher.md)
    - Configurar gestor de archivos
-     - Para ver la documentación de yazi, revisa el archivo [yazi](../must-have/file-mananger/yazi.md)
+     - Para ver la documentación de yazi, revisa el archivo [yazi](../must-have/file-manager/yazi.md)
 4. Instalar faltpak
 5. Instalar openssh
 
