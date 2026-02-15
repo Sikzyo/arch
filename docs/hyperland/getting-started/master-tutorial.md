@@ -19,6 +19,7 @@ Una vez instalado Hyprland, estos son los pasos esenciales para configurar y com
    - Configurar gestor de archivos
      - Para ver la documentación de yazi, revisa el archivo [yazi](../must-have/file-mananger/yazi.md)
 4. Instalar faltpak
+5. Instalar openssh
 
 pipewire; pipewire, wireplumber
 XDG Desktop Portal: xdg-desktop-portal-hyprland
