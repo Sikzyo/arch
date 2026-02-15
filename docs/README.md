@@ -9,7 +9,7 @@ Este repositorio contiene documentación y guías para instalar y configurar Arc
 Guías para la instalación y configuración de Arch Linux.
 
 - **[Guía de Instalación](arch-linux/installation-guide.md)** - Instalación paso a paso de Arch Linux sin usar `archinstall`
-- **[Post-instalación](arch-linux/pos-installation.md)** - Pasos recomendados después de instalar
+- **[Post-instalación](arch-linux/post-installation.md)** - Pasos recomendados después de instalar
 - **[Documentación General](arch-linux/README.md)** - Guía completa de administración del sistema
 
 **Administración del Sistema:**

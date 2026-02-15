@@ -14,7 +14,7 @@ Repositorio con documentación, guías y configuraciones para instalar y adminis
 |------|-------------|
 | [📖 Ver toda la documentación](docs/README.md) | Índice completo de todas las guías |
 | [🐧 Instalar Arch Linux](docs/arch-linux/installation-guide.md) | Guía paso a paso de instalación |
-| [⚙️ Post-instalación](docs/arch-linux/pos-installation.md) | Qué hacer después de instalar |
+| [⚙️ Post-instalación](docs/arch-linux/post-installation.md) | Qué hacer después de instalar |
 | [🪟 Hyprland](docs/hyprland/README.md) | Configuración del gestor de ventanas |
 
 ### 📁 Secciones Principales
@@ -32,7 +32,7 @@ docs/
 ├── README.md                    ← Índice principal
 ├── arch-linux/
 │   ├── installation-guide.md    ← Instalación paso a paso
-│   ├── pos-installation.md      ← Post-instalación
+│   ├── post-installation.md      ← Post-instalación
 │   ├── README.md                ← Documentación general
 │   ├── pacman/
 │   ├── aur/
@@ -53,7 +53,7 @@ docs/
 
 ### ¿Primera vez instalando Arch?
 1. Sigue la [Guía de Instalación](docs/arch-linux/installation-guide.md)
-2. Luego revisa [Post-instalación](docs/arch-linux/pos-installation.md)
+2. Luego revisa [Post-instalación](docs/arch-linux/post-installation.md)
 3. Finalmente configura [Hyprland](docs/hyprland/README.md)
 
 ### ¿Ya tienes Arch instalado?
