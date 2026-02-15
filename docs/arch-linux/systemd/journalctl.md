@@ -42,7 +42,7 @@ A continuación, los puntos clave para comenzar a utilizarlo:
 
 ---
 
-1. Mantenimiento y espacio en disco
+4. Mantenimiento y espacio en disco
 
    Si el journal ocupa demasiado espacio, puedes limitar su tamaño o eliminar registros antiguos:
    - Limpiar por tamaño:
