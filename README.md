@@ -13,12 +13,14 @@ Guías para la instalación y configuración de Arch Linux.
 - **[Documentación General](docs/arch-linux/README.md)** - Guía completa de administración del sistema
 
 **Administración del Sistema:**
+
 - [Usuarios](docs/arch-linux/users/user.md) - Crear y gestionar usuarios
 - [systemctl](docs/arch-linux/systemd/systemctl.md) - Gestión de servicios
 - [journalctl](docs/arch-linux/systemd/journalctl.md) - Sistema de logs
 - [Mantenimiento](docs/arch-linux/system-maintenance/system-maintenance.md) - Mantenimiento regular del sistema
 
 **Gestión de Paquetes:**
+
 - [pacman](docs/arch-linux/pacman/pacman.md) - Gestor de paquetes oficial
 - [Repositorios](docs/arch-linux/repositories/repositories.md) - Configuración de repositorios
 - [Espejos](docs/arch-linux/mirrors/mirrors.md) - Optimización de mirrors
@@ -27,6 +29,7 @@ Guías para la instalación y configuración de Arch Linux.
 - [yay](docs/arch-linux/aur/yay.md) - Helper para AUR
 
 **Seguridad y Controladores:**
+
 - [UFW Firewall](docs/arch-linux/ufw/installation-ufw.md) - Cortafuegos
 - [Microcode](docs/arch-linux/microcode/microcode.md) - Actualizaciones de CPU
 - [Drivers AMD](docs/arch-linux/display-drivers/amd.md)
@@ -34,6 +37,7 @@ Guías para la instalación y configuración de Arch Linux.
 - [Drivers NVIDIA](docs/arch-linux/display-drivers/nvidia.md)
 
 **Configuración:**
+
 - [Fuentes](docs/arch-linux/fonts/fonts.md)
 - [Directorios de usuario](docs/arch-linux/user-directories/xdg-user-dirs.md)
 
@@ -47,11 +51,12 @@ Guías para instalar y configurar Hyprland como gestor de ventanas.
 - **[Tutorial Base](docs/hyprland/getting-started/master-tutorial.md)** - Primeros pasos después de instalar
 
 **Componentes Esenciales:**
-- [Authentication Agent](docs/hyprland/must-have/authentication-agent.md) - hyprpolkitagent
-- [Wallpaper](docs/hyprland/must-have/wallpaper.md) - hyprpaper
-- [Notificaciones](docs/hyprland/must-have/notification-daemon.md) - mako
-- [Lanzador de aplicaciones](docs/hyprland/must-have/application-launcher.md) - hyprlauncher
-- [Gestor de archivos](docs/hyprland/must-have/file-manager/yazi.md) - yazi
+
+- [Authentication Agent](docs/hyprland/must-have/authentication-agent/hyprpolkitagent.md) - hyprpolkitagent
+- [Wallpaper](docs/hyprland/must-have/wallpaper/hyprpaper.md) - hyprpaper
+- [Notificaciones](docs/hyprland/must-have/notifications/mako.md) - mako
+- [Lanzador de aplicaciones](docs/hyprland/must-have/application-launcher/hyprlauncher.md) - hyprlauncher
+- [Gestor de archivos](docs/hyprland/must-have/file-manager/) - yazi
 
 ---
 
