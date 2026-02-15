@@ -1,78 +1,74 @@
-# Arch Linux - Documentación Personal
+# Documentación de Arch Linux
 
-Repositorio con documentación, guías y configuraciones para instalar y administrar Arch Linux con Hyprland.
+Este repositorio contiene documentación y guías para instalar y configurar Arch Linux con Hyprland como gestor de ventanas.
 
-> 🎯 **Objetivo**: Recopilar todo lo aprendido sobre Arch Linux en un solo lugar, desde la instalación hasta la configuración diaria.
+## 📚 Índice de Contenidos
 
----
+### 🐧 Arch Linux
 
-## 📚 Índice Rápido
+Guías para la instalación y configuración de Arch Linux.
 
-### 🚀 Comenzar
+- **[Guía de Instalación](docs/arch-linux/installation-guide.md)** - Instalación paso a paso de Arch Linux sin usar `archinstall`
+- **[Post-instalación](docs/arch-linux/post-installation.md)** - Pasos recomendados después de instalar
+- **[Documentación General](docs/arch-linux/README.md)** - Guía completa de administración del sistema
 
-| Guía | Descripción |
-|------|-------------|
-| [📖 Ver toda la documentación](docs/README.md) | Índice completo de todas las guías |
-| [🐧 Instalar Arch Linux](docs/arch-linux/installation-guide.md) | Guía paso a paso de instalación |
-| [⚙️ Post-instalación](docs/arch-linux/post-installation.md) | Qué hacer después de instalar |
-| [🪟 Hyprland](docs/hyprland/README.md) | Configuración del gestor de ventanas |
+**Administración del Sistema:**
+- [Usuarios](docs/arch-linux/users/user.md) - Crear y gestionar usuarios
+- [systemctl](docs/arch-linux/systemd/systemctl.md) - Gestión de servicios
+- [journalctl](docs/arch-linux/systemd/journalctl.md) - Sistema de logs
+- [Mantenimiento](docs/arch-linux/system-maintenance/system-maintenance.md) - Mantenimiento regular del sistema
 
-### 📁 Secciones Principales
+**Gestión de Paquetes:**
+- [pacman](docs/arch-linux/pacman/pacman.md) - Gestor de paquetes oficial
+- [Repositorios](docs/arch-linux/repositories/repositories.md) - Configuración de repositorios
+- [Espejos](docs/arch-linux/mirrors/mirrors.md) - Optimización de mirrors
+- [ABS](docs/arch-linux/abs/abs.md) - Arch Build System
+- [AUR](docs/arch-linux/aur/aur.md) - Arch User Repository
+- [yay](docs/arch-linux/aur/yay.md) - Helper para AUR
 
-- **[Arch Linux](docs/arch-linux/README.md)** - Instalación, administración del sistema, paquetes, seguridad
-- **[Hyprland](docs/hyprland/README.md)** - Gestor de ventanas y componentes esenciales
-- **[Zed Editor](docs/zed-editor/zed-config.md)** - Configuración del editor
+**Seguridad y Controladores:**
+- [UFW Firewall](docs/arch-linux/ufw/installation-ufw.md) - Cortafuegos
+- [Microcode](docs/arch-linux/microcode/microcode.md) - Actualizaciones de CPU
+- [Drivers AMD](docs/arch-linux/display-drivers/amd.md)
+- [Drivers Intel](docs/arch-linux/display-drivers/intel.md)
+- [Drivers NVIDIA](docs/arch-linux/display-drivers/nvidia.md)
 
----
-
-## 🗺️ Mapa de Documentación
-
-```
-docs/
-├── README.md                    ← Índice principal
-├── arch-linux/
-│   ├── installation-guide.md    ← Instalación paso a paso
-│   ├── post-installation.md      ← Post-instalación
-│   ├── README.md                ← Documentación general
-│   ├── pacman/
-│   ├── aur/
-│   ├── systemd/
-│   ├── display-drivers/
-│   └── ...
-├── hyprland/
-│   ├── README.md                ← Guía de Hyprland
-│   ├── getting-started/
-│   └── must-have/
-└── zed-editor/
-    └── zed-config.md
-```
+**Configuración:**
+- [Fuentes](docs/arch-linux/fonts/fonts.md)
+- [Directorios de usuario](docs/arch-linux/user-directories/xdg-user-dirs.md)
 
 ---
 
-## 🎯 Casos de Uso
+### 🪟 Hyprland
 
-### ¿Primera vez instalando Arch?
-1. Sigue la [Guía de Instalación](docs/arch-linux/installation-guide.md)
-2. Luego revisa [Post-instalación](docs/arch-linux/post-installation.md)
-3. Finalmente configura [Hyprland](docs/hyprland/README.md)
+Guías para instalar y configurar Hyprland como gestor de ventanas.
 
-### ¿Ya tienes Arch instalado?
-- Revisa la [documentación general](docs/arch-linux/README.md) para gestión del sistema
-- Configura el [firewall](docs/arch-linux/ufw/installation-ufw.md)
-- Optimiza los [espejos](docs/arch-linux/mirrors/mirrors.md)
+- **[Instalación de Hyprland](docs/hyprland/getting-started/install-hyprland.md)**
+- **[Tutorial Base](docs/hyprland/getting-started/master-tutorial.md)** - Primeros pasos después de instalar
 
-### ¿Problemas con Hyprland?
-- [Tutorial base](docs/hyprland/getting-started/master-tutorial.md) - Primeros pasos
-- [Componentes esenciales](docs/hyprland/README.md#componentes-esenciales)
+**Componentes Esenciales:**
+- [Authentication Agent](docs/hyprland/must-have/authentication-agent.md) - hyprpolkitagent
+- [Wallpaper](docs/hyprland/must-have/wallpaper.md) - hyprpaper
+- [Notificaciones](docs/hyprland/must-have/notification-daemon.md) - mako
+- [Lanzador de aplicaciones](docs/hyprland/must-have/application-launcher.md) - hyprlauncher
+- [Gestor de archivos](docs/hyprland/must-have/file-manager/yazi.md) - yazi
 
 ---
 
-## 🔗 Recursos Externos
+### 📝 Zed Editor
 
-- [Arch Wiki](https://wiki.archlinux.org/)
+Configuración del editor Zed.
+
+- **[Configuración de Zed](docs/zed-editor/zed-config.md)**
+
+---
+
+## 📖 Recursos Oficiales
+
+- [Arch Linux Wiki](https://wiki.archlinux.org/)
 - [Hyprland Wiki](https://wiki.hyprland.org/)
-- [Zed Docs](https://zed.dev/docs)
+- [Zed Documentation](https://zed.dev/docs)
 
 ---
 
-> 💡 **Nota**: Esta documentación está en constante evolución mientras aprendo. Si encuentras errores o tienes sugerencias, ¡serán bienvenidas!
+> 💡 **Nota**: Esta documentación está en constante desarrollo mientras aprendo a usar Arch Linux. Se aceptan sugerencias y correcciones.
