@@ -1,10 +1,10 @@
 # Documentación de Arch Linux
 
-Este repositorio contiene documentación y guías para instalar y configurar Arch Linux con Hyprland como gestor de ventanas.
+Este repositorio reúne guías y documentación para la instalación, configuración y mantenimiento de Arch Linux, con especial enfoque en el uso de Hyprland como getsor de ventanas.
 
-## 📚 Índice de Contenidos
+---
 
-### 🐧 Arch Linux
+## Arch Linux
 
 Guías para la instalación y configuración de Arch Linux.
 
@@ -39,7 +39,7 @@ Guías para la instalación y configuración de Arch Linux.
 
 ---
 
-### 🪟 Hyprland
+## Hyprland
 
 Guías para instalar y configurar Hyprland como gestor de ventanas.
 
@@ -55,7 +55,7 @@ Guías para instalar y configurar Hyprland como gestor de ventanas.
 
 ---
 
-### 📝 Zed Editor
+## Zed Editor
 
 Configuración del editor Zed.
 
