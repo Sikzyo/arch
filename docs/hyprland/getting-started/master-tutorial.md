@@ -1,26 +1,15 @@
 # Tutorial base
 
-Una vez instalado Hyprland, estos son los pasos esenciales para configurar y comenzar a usar tu entorno:
+Una vez instalado Hyprland, sigue estos pasos esenciales:
 
-1. Instalar una terminal
-   Se recomienda instalar `kitty`, ya que es el emulador de terminal utilizado por defecto en la configuración.
-2. Lanza Hyprland
-   - Desde tu TTY, ejecuta el comando `start-hyprland`
-   - NUNCA lo inicies con permisos de super usuario (evitar usar sudo)
-3. Configuración crítica:
-   - Configura un `Authentication agent`
-     - Para mirar como configurar `hyprpolkitagent` mire: [hyprpolkitagent](../must-have/authentication-agent.md)
-   - Configuración de wallpapers:
-     - Para mirar como configurar `hyprpaper` mire [hyprpaper](../must-have/wallpaper.md)
-   - Configuración de notificaciones
-     - Para ver cómo configurar `mako`, consulta: [Mako](../must-have/notification-daemon.md)
-   - Configuración del lanzador de aplicaciones
-     - Para ver cómo instalar hyprlauncher, consulta la guía en [hyprlauncher](../must-have/application-launcher.md)
-   - Configurar gestor de archivos
-     - Para ver la documentación de yazi, revisa el archivo [yazi](../must-have/file-manager/yazi.md)
-4. Instalar faltpak
-5. Instalar openssh
-
-pipewire; pipewire, wireplumber
-XDG Desktop Portal: xdg-desktop-portal-hyprland
-Statusbar/shell: quickshell, waybar, eww, ags
+1. Instala una terminal. Se recomienda `kitty`: [kitty](./terminal/kitty.md)
+2. Lanza Hyprland desde TTY con `start-hyprland` (sin sudo)
+3. Configura el agente de autenticación: [hyprpolkitagent](../must-have/authentication-agent/hyprpolkitagent.md)
+4. Configura el audio con PipeWire: [Audio]()
+5. Instala XDG Desktop Portal: [xdg-desktop-portal-hyprland]()
+6. Configura wallpapers: [hyprpaper](../must-have/wallpaper/)
+7. Configura notificaciones: [mako](../must-have/notifications/mako.md)
+8. Instala el lanzador de aplicaciones: [hyprlauncher](../must-have/application-launcher/hyprlauncher.md)
+9. Configura el gestor de archivos: [yazi](../must-have/file-manager/yazi.md)
+10. Instala Flatpack para aplicaciones: [Flatpack]()
+11. Configura la barra de estado: [qquickshell]()
