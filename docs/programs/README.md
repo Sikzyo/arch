@@ -12,6 +12,13 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 
 ## GUI (Interfaz gráfica)
 
+- [Brave](./gui/brave/brave.md)
+- [Discord]()
+- [Obsidian]()
+- [Spotify]()
+- [Steam]()
+- [zen]()
+
 ---
 
 ## Multimedia
@@ -21,7 +28,10 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 ## Desarrollo
 
 - [Android Studio](./development/android-studio/install-android-studio.md)
-- [Configuración de Zed](./development/zed-editor/zed-config.md)
+- [Bun]()
+- [Node.js]
+- [Visual Studio Code]()
+- [Zed](./development/zed-editor/zed-config.md)
 
 ---
 
