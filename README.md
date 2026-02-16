@@ -61,9 +61,7 @@ Guías para instalar y configurar Hyprland como gestor de ventanas.
 
 ---
 
-## Zed Editor
-
-Configuración del editor Zed.
+## Programas
 
 - **[Configuración de Zed](docs/zed-editor/zed-config.md)**
 
