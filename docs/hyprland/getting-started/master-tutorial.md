@@ -11,5 +11,4 @@ Una vez instalado Hyprland, sigue estos pasos esenciales:
 7. Configura notificaciones: [mako](../must-have/notifications/mako.md)
 8. Instala el lanzador de aplicaciones: [hyprlauncher](../must-have/application-launcher/hyprlauncher.md)
 9. Configura el gestor de archivos: [yazi](../must-have/file-manager/yazi.md)
-10. Instala Flatpack para aplicaciones: [Flatpack]()
-11. Configura la barra de estado: [quickshell]()
+10. Configura la barra de estado: [quickshell]()
