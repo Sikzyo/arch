@@ -43,19 +43,9 @@ Esta guía te ayudará a gestionar fuentes en Linux, con un enfoque especial en 
 
   `sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra`
 
-  ***
-  - Instalación manual
-    Si descargas archivos `.ttf` o `otf` directamente de internet:
-    1. Para tu usuario:
-       1. Copia los archivos a `~/.local/share/fonts`
-    2. Para todo el sistema:
-       1. Copia los archivos a `/usr/local/share/fonts/`
-       2. No modifiques `/usr/share/fonts/` manualmente, ya que está reservado para el gestor de paquetes.
-    3. Ejecuta `fc-cache` para que el sistema reconozca las nuevas fuentes.
-
 ---
 
-4. Configuración y optimización
+1. Configuración y optimización
 
    Fontconfig es el sistema encargado de decidir qué fuente se utiliza y cómo se renderiza.
    - Comandos útiles:
