@@ -6,6 +6,8 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 
 ## CLI (Línea de comandos)
 
+- [OpenCode](./cli/opencode/install-opencode.md)
+
 ---
 
 ## GUI (Interfaz gráfica)
