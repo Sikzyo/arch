@@ -43,6 +43,10 @@ Esta guía te ayudará a gestionar fuentes en Linux, con un enfoque especial en 
 
   `sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra`
 
+  Se recomienda instalar la fuente `monaspace`
+
+  `sudo pacman -S otf-monaspace`
+
 ---
 
 1. Configuración y optimización
