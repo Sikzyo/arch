@@ -12,4 +12,5 @@ Para preparar Arch para el uso diario, se recomienda seguir estos pasos:
 8. Para instalar y configurar las fuentes, revisa: [Fuentes](./fonts/fonts.md)
 9. Instala el diccionario español para el corrector ortográfico: [Idioma](./language/language.md)
 10. Configura el sistema de audio. Consulta: [Audio](./audio/audio-setup.md)
-11. Instala Hyprland. Para ello, se recomienda consultar la guía: [Hyprland](../hyprland/getting-started/install-hyprland.md)
+11. Configura los directorios de usuario (XDG). Consulta: [xdg-user-dirs](./user-directories/xdg-user-dirs.md)
+12. Instala Hyprland. Para ello, se recomienda consultar la guía: [Hyprland](../hyprland/getting-started/install-hyprland.md)
