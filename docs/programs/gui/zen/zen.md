@@ -12,7 +12,7 @@ Zen Browser es un navegador web ligero y minimalista, enfocado en productividad 
 
 2. Configuración
 
-   Para revisar mi configuración personal, consulta el archivo: [Zen-config]()
+   Para revisar mi configuración personal, consulta el archivo: [Zen-config](zen-config.md)
 
 ## Documentación
 

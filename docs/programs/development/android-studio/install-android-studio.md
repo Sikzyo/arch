@@ -4,12 +4,10 @@ Android Studio es el entorno de desarrollo integrado (IDE) oficial para el desar
 
 1. Instalación
 
-Para instalar Android Studio en Arch Linux, utiliza el siguiente comando:
+Para instalar Android Studio, utiliza el siguiente comando en la terminal.
 
 `yay -S android-studio`
 
 ## Documentación
 
-Para más información, consulta:
-
-- [Android Studio](https://developer.android.com/studio)
+Para obtener más información, se recomienda visitar la página oficial de [Android Studio](https://developer.android.com/studio) y la documentación de Arch Linux en [Android Arch](https://wiki.archlinux.org/title/Android)
