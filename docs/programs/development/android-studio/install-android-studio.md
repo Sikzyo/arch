@@ -4,9 +4,9 @@ Android Studio es el entorno de desarrollo integrado (IDE) oficial para el desar
 
 1. Instalación
 
-Para instalar Android Studio, utiliza el siguiente comando en la terminal.
+   Para instalar Android Studio, utiliza el siguiente comando en la terminal.
 
-`yay -S android-studio`
+   `yay -S android-studio`
 
 ## Documentación
 

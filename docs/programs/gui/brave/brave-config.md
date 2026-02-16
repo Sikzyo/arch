@@ -17,7 +17,7 @@
 
 ---
 
-1. Setting
+2. Setting
    - Get started
      - On startup
        - Open the New Tab Page

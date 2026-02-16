@@ -7,11 +7,11 @@
 
 ## Configuración del editor
 
-Para ver las configuraciones completas, consulta el archivo [`settings.json`](./settings.json).
+Para ver las configuraciones completas, consulta el archivo [`settings.json`](settings.json).
 
 ## Atajos de teclado (Keymaps)
 
-Para ver la configuración de los atajos de teclado, consulta el archivo [`keymap.json`](./keymap.json).
+Para ver la configuración de los atajos de teclado, consulta el archivo [`keymap.json`](keymap.json).
 
 ---
 

@@ -31,7 +31,7 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 - [Bun](./development/bun/bun.md)
 - [Node.js](./development/nodejs/nodejs.md)
 - [Visual Studio Code](./development/vscode/vscode.md)
-- [Zed](./development/zed-editor/zed-config.md)
+- [Zed](./development/zed-editor/zed.md)
 
 ---
 
