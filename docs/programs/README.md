@@ -20,7 +20,8 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 
 ## Desarrollo
 
-**[Configuración de Zed](./development/zed-editor/zed-config.md)**
+- [Android Studio](./development/android-studio/install-android-studio.md)
+- [Configuración de Zed](./development/zed-editor/zed-config.md)
 
 ---
 
