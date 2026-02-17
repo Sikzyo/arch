@@ -7,7 +7,7 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 ## CLI (Línea de comandos)
 
 - [Btop](./cli/btop/btop.md)
-- []()
+- [Nvtop](./cli/nvtop/nvtop.md)
 - [OpenCode](./cli/opencode/install-opencode.md)
 
 ---
