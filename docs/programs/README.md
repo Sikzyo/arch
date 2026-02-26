@@ -7,9 +7,14 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 ## CLI (Línea de comandos)
 
 - [Btop](./cli/btop/btop.md)
+- [Cava](./cli/cava/cava.md)
+- [CBonsai](./cli/cbonsai/cbonsai.md)
+- [CMatrix](./cli/cmatrix/cmatrix.md)
+- [FastFetch](./cli/fastfetch/fastfetch.md)
 - [micro](./cli/micro/micro.md)
 - [Nvtop](./cli/nvtop/nvtop.md)
 - [OpenCode](./cli/opencode/install-opencode.md)
+- [tty-clock](./cli/tty-clock/tty-clock.md)
 
 ---
 
