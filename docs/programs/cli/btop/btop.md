@@ -2,11 +2,13 @@
 
 Monitor de recursos del sistema interactivo que muestra CPU, memoria, discos y red en tiempo real.
 
-1. Instalación
+## 1. Instalación
 
-   Para instalar Btop, ejecuta el siguiente comando en la terminal.
+Para instalar Btop, ejecuta el siguiente comando en la terminal:
 
-   `sudo pacman -S btop`
+```bash
+sudo pacman -S btop
+```
 
 ## Documentación
 
