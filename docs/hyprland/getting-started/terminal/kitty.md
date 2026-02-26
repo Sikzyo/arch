@@ -20,7 +20,11 @@ El archivo de configuración se encuentra ubicado en:
 
 `~/.config/kitty/kitty.conf`
 
-## 3. Mi configuración
+## 3. zsh
+
+Se recomienda instalar `zsh`. Para más información, consulta el archivo [zsh](zsh.md)
+
+## 4. Mi configuración
 
 Puedes consultar mi configuración personal de `kitty` en el siguiente archivo:
 
