@@ -12,4 +12,4 @@ sudo pacman -S cava
 
 ## Documentación
 
-Para obtener más información, se recomienda visitar el repositorio oficial de [cava](https://github.com/karlstav/cava?tab=readme-ov-file#configuration)
+Para obtener más información, se recomienda visitar el repositorio oficial de [cava](https://github.com/karlstav/cava)
