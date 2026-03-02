@@ -29,6 +29,13 @@ Lista de programas, herramientas y utilidades que uso en mi configuración de Ar
 
 ---
 
+## Games (Juegos)
+
+- [Genshin Impact](./games/genshin-impact/genshin-impact.md)
+- [Minecraft](./games/minecraft/minecraft.md)
+
+---
+
 ## Multimedia
 
 ---
